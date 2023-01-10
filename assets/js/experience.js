@@ -23,7 +23,7 @@ const exp = [
     title: "Member of Database Management Team",
     cardImage: "assets/images/gfg.png",
     place: "Geeks for Geeks",
-    time: "(August 2022 - September 2022)",
+    time: "(March 2021 - April 2022)",
     desp: "Conducted a hackathon name geek week local and managed the data of all the participants on MS Excel ",
   }
   
