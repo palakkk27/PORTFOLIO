@@ -134,14 +134,22 @@ const showCards3 = () => {
     ({ title, image, subtitle, desp, href }) =>
       (output += `  
       <div class="blog-slider__item swiper-slide">
-        <div class="blog-slider__img">
-            <img src="${image}" alt="">
+<div class="d-flex flex-row">
+        <div class="p-2">
+          <div class="blog-slider__img">
+          <img src="${image}" alt="" />
+          </div>
         </div>
-        <div class="blog-slider__content">
-          <div class="blog-slider__title">${title}</div>
-          <span class="blog-slider__code">${subtitle}</span>
-          <div class="blog-slider__text">${desp}</div>
-          <a href="${href}" class="blog-slider__button">Read More</a>   
+
+        <div class="p-2">
+              <div class="blog-slider__content">
+              <div class="blog-slider__title">${title}</div>
+              <span class="blog-slider__code">${subtitle}</span>
+              <div class="blog-slider__text">${desp}</div>
+              <a href="${links}" target="_blank" class="blog-slider__button">Read More</a>
+              </div>                  
+    
+      </div> 
         </div>
       </div>
       `)
